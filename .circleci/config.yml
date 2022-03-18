@@ -3,7 +3,7 @@ jobs:
   build:
     docker:
       # Ensure .tool-versions matches
-      - image: circleci/elixir:1.10.3-node-browsers
+      - image: circleci/elixir:1.12-node-browsers
         environment:
           MIX_ENV: test
           # match POSTGRES_PASSWORD for postgres image below
@@ -552,7 +552,7 @@ jobs:
   coveralls_merge:
     docker:
       # Ensure .tool-versions matches
-      - image: circleci/elixir:1.10.3
+      - image: circleci/elixir:1.12
         environment:
           MIX_ENV: test
 
