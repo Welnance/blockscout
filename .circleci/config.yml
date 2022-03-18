@@ -247,7 +247,7 @@ jobs:
   gettext:
     docker:
       # Ensure .tool-versions matches
-      - image: circleci/elixir:1.10.3
+      - image: circleci/elixir:1.12
         environment:
           MIX_ENV: test
 
