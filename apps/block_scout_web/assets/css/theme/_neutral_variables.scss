@@ -7,7 +7,7 @@ $additional-font: #fff;
 // footer
 $footer-background-color: #5fa747;
 $footer-title-color: #fff;
-$footer-text-color: #f5f5f0;
+$footer-text-color: #fff;
 $footer-item-disc-color: $secondary;
 .footer-logo { filter: brightness(0) invert(1); }
 
@@ -25,7 +25,7 @@ $dashboard-banner-gradient-start: $primary; // gradient begin
 
 $dashboard-banner-gradient-end: lighten($primary, 5); // gradient end
 
-$dashboard-banner-network-plain-container-background-color: #145d32; // stats bg
+$dashboard-banner-network-plain-container-background-color: #104928; // stats bg
 
 
 // navigation
