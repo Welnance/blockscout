@@ -1,20 +1,20 @@
 // general
-$primary: #499531;
+$primary: #287011;
 $secondary: #87e1a9;
-$tertiary: #5a9e66;
+$tertiary: #bb5f09;
 $additional-font: #fff;
 
 // footer
-$footer-background-color: #267e32;
+$footer-background-color: #e7a843;
 $footer-title-color: #fff;
-$footer-text-color: #e8ee98;
+$footer-text-color: #a3ad11;
 $footer-item-disc-color: $secondary;
 .footer-logo { filter: brightness(0) invert(1); }
 
 // dashboard
 $dashboard-line-color-price: $tertiary; // price left border
 
-$dashboard-banner-chart-legend-label-color: #b2fb9c;
+$dashboard-banner-chart-legend-label-color: #056fc5;
 $dashboard-stats-item-label-color: $dashboard-banner-chart-legend-label-color;
 $dashboard-banner-chart-legend-value-color: #fff; // chart labels
 $dashboard-stats-item-value-color: #fff; // stat values
@@ -25,7 +25,7 @@ $dashboard-banner-gradient-start: $primary; // gradient begin
 
 $dashboard-banner-gradient-end: lighten($primary, 5); // gradient end
 
-$dashboard-banner-network-plain-container-background-color: #4dad5d; // stats bg
+$dashboard-banner-network-plain-container-background-color: #df460a; // stats bg
 
 
 // navigation
@@ -75,6 +75,6 @@ $api-text-monospace-color: $primary;
 }
 
 // Dark theme
-$dark-primary: #288645;
-$dark-secondary: #4bb172;
-$dark-primary-alternate: #1e2e0a; 
+$dark-primary: #0b5522;
+$dark-secondary: #1a241d;
+$dark-primary-alternate: #0f0a2e; 
