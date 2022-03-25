@@ -17,7 +17,7 @@ services:
   blockscout:
     depends_on:
       - db
-    image: welnance/welnance_explorer:0.2.3
+    image: welnance/welnance_explorer:0.2.4
     restart: always
     container_name: 'blockscout'
     links:
