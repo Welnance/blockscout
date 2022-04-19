@@ -28,7 +28,7 @@ services:
     env_file:
       -  ./envs/common-blockscout.env
     environment:
-        ETHEREUM_JSONRPC_VARIANT: 'besu'
+        ETHEREUM_JSONRPC_VARIANT: 'geth'
         BLOCK_TRANSFORMER: 'clique'
         ETHEREUM_JSONRPC_HTTP_URL: http://128.199.215.122:8546/
         DATABASE_URL: postgresql://postgres:@host.docker.internal:7432/blockscout?ssl=false
