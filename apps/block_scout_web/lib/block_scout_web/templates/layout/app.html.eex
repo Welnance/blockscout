@@ -207,8 +207,7 @@
         <%= nil %>
     <% end %>
     <div class="layout-container">
-
-
+      <%= render BlockScoutWeb.LayoutView, "_topnav.html", assigns %>
       <main class="js-ad-dependant-pt pt-5">
         <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
         <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
