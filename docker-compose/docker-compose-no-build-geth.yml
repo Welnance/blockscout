@@ -32,6 +32,7 @@ services:
         ETHEREUM_JSONRPC_HTTP_URL: https://prewelnc-dataseed1.welnance.io/
         DATABASE_URL: postgresql://postgres:@host.docker.internal:7432/blockscout?ssl=false
         ETHEREUM_JSONRPC_TRACE_URL: https://prewelnc-dataseed1.welnance.io/
+        BLOCKSCOUT_VERSION: 0.4
     ports:
       - 4000:4000
 
